@@ -1,0 +1,57 @@
+*{
+    text-align: center;
+}
+
+#corpo{
+    width: 300px;
+    height: 750px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #ccc;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    width: 250px;
+    height: 50px;
+    margin: 20px;            
+}
+.botao{
+    width: 260px;
+    height: 50px; 
+    margin: 10px; 
+    cursor: pointer;
+}
+#resultado{
+    width: 280px;
+    height: 800px;
+    background-color:rgb(240, 141, 141);    
+    margin: 5px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 5px;  
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;   
+    line-height: 3.5;
+}
+
+.hide {
+    display: none;
+}
+
+.botaoVoltar{
+    width: 200px;
+    height: 50px; 
+    margin: 10px; 
+    cursor: pointer;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}  
+
